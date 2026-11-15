@@ -1,8 +1,8 @@
 # AgniSetu: text for the Space Apps project page
 
 Each heading below is one field of the project page, in the order of the Project Submission Guide.
-Copy the text under a heading into the matching field. Two fields need a public link that only you can
-create; they are marked "Your link".
+Copy the text under a heading into the matching field. One field, the link to the demo, needs a public
+link that only you can create; it is marked "Your link".
 
 ---
 
@@ -36,8 +36,7 @@ for example Google Drive with "Anyone with the link can view", and paste that li
 
 ## Link to Final Project
 
-Your link. The public repository of this project, for example on GitHub, or the address of a hosted
-instance. It must open without a login.
+https://github.com/ankitjha67/NASA_SPACE_APPS_2026
 
 ## Detailed Project Description
 
