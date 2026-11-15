@@ -40,7 +40,6 @@ the repository.
 * The "Use of Super Intelligence" field of the project page.
 * The README, section "Use of AI tools".
 * This file.
-* The footer of every slide of the demo.
 
 ## A note for the participant before submitting
 

@@ -39,7 +39,7 @@ const image = (name) => {
   return pathToFileURL(path).href;
 };
 
-const footer = `<footer><span>${escapeHtml(team)} | ${CHALLENGE} | NASA Space Apps Challenge 2026</span><span>Built with an AI coding assistant. Every figure is a screenshot of the running app on real NASA FIRMS data.</span></footer>`;
+const footer = `<footer><span>${escapeHtml(team)} | ${CHALLENGE} | NASA Space Apps Challenge 2026</span><span>Every figure is a screenshot of the running app on real NASA FIRMS data.</span></footer>`;
 
 /** One screenshot with a caption. `height` is the room it may take on the slide, in pixels. */
 const figure = (name, height, caption) =>
