@@ -1,8 +1,7 @@
 # AgniSetu: text for the Space Apps project page
 
 Each heading below is one field of the project page, in the order of the Project Submission Guide.
-Copy the text under a heading into the matching field. One field, the link to the demo, needs a public
-link that only you can create; it is marked "Your link".
+Copy the text under a heading into the matching field. Both links point at the public repository.
 
 ---
 
@@ -31,8 +30,11 @@ consistent fire history that will stay usable as MODIS retires.
 
 ## Link to Project Demo
 
-Your link. Upload `docs/submission/AgniSetu_demo.pdf` (7 slides) to a place that opens without a login,
-for example Google Drive with "Anyone with the link can view", and paste that link here.
+https://github.com/ankitjha67/NASA_SPACE_APPS_2026/blob/main/docs/submission/AgniSetu_demo.pdf
+
+This is the 7 slide demo in the public repository; it opens without a login. If you prefer another host,
+upload `docs/submission/AgniSetu_demo.pdf` there (for example Google Drive with "Anyone with the link can
+view") and paste that link instead.
 
 ## Link to Final Project
 
