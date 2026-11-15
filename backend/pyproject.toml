@@ -1,0 +1,50 @@
+[project]
+name = "agnisetu"
+version = "1.0.0"
+description = "AgniSetu: harmonized MODIS and VIIRS burning activity calendar"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.162.7",
+    "starlette==1.10.0",
+    "uvicorn[standard]==0.54.0",
+    "duckdb==2.0.0",
+    "numpy==2.5.4",
+    "shapely==2.2.0",
+    "httpx==0.28.1",
+    "pydantic==2.14.3",
+    "pydantic-settings==2.16.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "ruff==0.17.5"]
+
+[project.scripts]
+agnisetu = "agnisetu.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agnisetu*"]
+
+[tool.setuptools.package-data]
+agnisetu = ["assets/**/*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "C4", "SIM", "RUF"]
+ignore = ["S101", "S608", "RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "B011", "E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"
+markers = ["realdata: checks against the real ingested FIRMS store (skipped when it is absent)"]
+# The test client still works with httpx; the advisory about its successor is not actionable here.
+filterwarnings = ["ignore:Using `httpx` with `starlette.testclient` is deprecated"]
