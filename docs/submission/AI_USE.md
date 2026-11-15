@@ -5,8 +5,8 @@ are used. It is written to be accurate, not flattering.
 
 ## Tool
 
-An AI coding assistant: a large language model based tool that runs in a terminal and edits files in
-the repository.
+Claude Code by Anthropic (model Claude Fable 5.2), an AI coding assistant that runs in a terminal and
+edits files in the repository.
 
 ## What the AI did
 
@@ -38,7 +38,11 @@ the repository.
 ## Where the acknowledgement appears
 
 * The "Use of Super Intelligence" field of the project page.
+* The README, section "Use of AI tools".
 * This file, in the public repository.
+* The footer of every slide of the demo.
+* The list of tools in the "Space Agency Partner & Other Data" field of the project page.
+* Commit messages written with the tool from now on, which carry a `Co-Authored-By` line.
 
 ## A note for the participant before submitting
 

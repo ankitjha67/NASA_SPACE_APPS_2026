@@ -72,8 +72,18 @@ Honesty about uncertainty: estimates are labeled as estimates, missing data is n
 
 This field is a list of options to tick. Tick the options that say SI was used for code and for text
 or documentation. Do not tick the options for images, video or audio: every image in the project is a
-screenshot of the running app. Do not tick "I did not use SI". The statement of how SI was used is in
-`docs/submission/AI_USE.md` in the repository.
+screenshot of the running app. Do not tick "I did not use SI".
+
+If the form also offers a text box, this is the statement:
+
+* Tool: Claude Code by Anthropic, an AI coding assistant.
+* What it did: under my direction it proposed the technical design, wrote the application code (backend,
+  frontend, tests), wrote the documentation, drafted the text on this page and assembled the demo slides.
+* What it did not do: no AI generated images, video or audio are used anywhere. Every figure is a
+  screenshot of the running application drawing real NASA data. No data is generated or altered by AI.
+  The application itself contains no language model.
+* Where it is acknowledged: in the README of the repository under "Use of AI tools", in
+  `docs/submission/AI_USE.md`, in the footer of every slide and in the list of tools below.
 
 ### NASA Data
 
@@ -117,6 +127,7 @@ No data from Space Agency Partners is used. Everything else used is listed here.
 | Ruff | https://docs.astral.sh/ruff/ |
 | Vitest | https://vitest.dev/ |
 | Playwright | https://playwright.dev/ |
+| Claude Code by Anthropic: AI coding assistant used to write the code and documentation | https://claude.com/product/claude-code |
 
 ## Project Submission Verification
 
