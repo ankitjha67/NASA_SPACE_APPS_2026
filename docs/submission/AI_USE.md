@@ -38,8 +38,7 @@ the repository.
 ## Where the acknowledgement appears
 
 * The "Use of Super Intelligence" field of the project page.
-* The README, section "Use of AI tools".
-* This file.
+* This file, in the public repository.
 
 ## A note for the participant before submitting
 

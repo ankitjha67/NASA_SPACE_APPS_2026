@@ -382,14 +382,6 @@ FIRMS region). Argentina was added this way during the hackathon.
   when individual fires will start.
 * Boundaries are used only to select analysis areas and do not imply any position on territorial status.
 
-## Use of AI tools
-
-This project was built with an AI coding assistant. Under the participant's
-direction it proposed the technical design and wrote the code, the tests and the documentation. No AI
-generated images, video, audio or data are used: every figure is a screenshot of the running
-application drawing real NASA data, and the application itself contains no language model. The full
-statement is in [docs/submission/AI_USE.md](docs/submission/AI_USE.md).
-
 ## Submission material
 
 * [docs/submission/PROJECT_PAGE.md](docs/submission/PROJECT_PAGE.md): text for every field of the Space

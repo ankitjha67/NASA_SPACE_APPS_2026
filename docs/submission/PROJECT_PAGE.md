@@ -161,8 +161,7 @@ AI tools were used in this project, and this section states where.
   slides and on this page is a screenshot of the running application drawing real NASA data. No data is
   generated or altered by AI. The application itself contains no language model: the bulletin is built
   from fixed sentence templates and every number comes from the documented statistical method.
-* Where it is acknowledged: in this section, in the README of the repository under "Use of AI tools" and
-  in `docs/submission/AI_USE.md`.
+* Where it is acknowledged: in this section and in `docs/submission/AI_USE.md` in the repository.
 * My part: I chose the challenge and the regions, set the requirements and quality bar, supplied the NASA
   FIRMS key, ran the application, reviewed the results against what is known about stubble burning in
   north India, and decided what to keep.
